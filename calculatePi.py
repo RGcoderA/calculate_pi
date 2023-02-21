@@ -9,7 +9,7 @@ iterations = 1000000
 
 random.seed(int(round(time.time()*1000)))
 for i in range(0,iterations):
-    # select two random numbers between 0 and 1
+    # It will select two random numbers between 0 and 1 
     x = random.uniform(0,1)
     y = random.uniform(0,1)
 
